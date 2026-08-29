@@ -7,9 +7,10 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-    { name: "About", href: "#hero" },
-    { name: "Solutions", href: "#solutions" },
-    { name: "Metrics", href: "#metrics" },
+    { name: "AI", href: "#solutions" },
+    { name: "Cloud Operations", href: "#comparison" },
+    { name: "Company", href: "#hero" },
+    { name: "Resources", href: "#metrics" },
     { name: "Contact", href: "#contact" },
   ];
 

@@ -63,10 +63,6 @@ export default function Layout() {
           title: "Company",
           items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
-            {
               label: "Careers",
               href: "#",
             },

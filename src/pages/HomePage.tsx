@@ -1,4 +1,3 @@
-import AboutText from '@/components/sections/about/AboutText';
 import ContactCta from '@/components/sections/contact/ContactCta';
 import FeaturesComparison from '@/components/sections/features/FeaturesComparison';
 import FeaturesRevealCardsBento from '@/components/sections/features/FeaturesRevealCardsBento';
@@ -29,14 +28,6 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="about" data-section="about">
-        <SectionErrorBoundary name="about">
-          <AboutText
-            title="We redefine how power is generated, managed, and consumed. Future Watt New Energy is the cornerstone of a sustainable, decentralized, and intelligent grid."
-            textAnimation="slide-up"
-          />
-        </SectionErrorBoundary>
-      </div>
 
       <div id="solutions" data-section="solutions">
         <SectionErrorBoundary name="solutions">

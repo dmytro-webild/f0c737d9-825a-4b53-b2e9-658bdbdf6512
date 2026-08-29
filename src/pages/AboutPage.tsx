@@ -20,7 +20,7 @@ export default function AboutPage() {
               { value: "100%", label: "Renewable Commitment" },
               { value: "99.9%", label: "Grid Uptime" },
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/wind-turbines-by-highway-eco-travel-scenic-infrastructure_169016-68028.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/wind-turbines-by-highway-eco-travel-scenic-infrastructure_169016-68028.jpg?_wi=1"
             textAnimation="slide-up"
           />
         </SectionErrorBoundary>
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 description: "Stabilizing regional power systems with advanced battery storage and real-time load balancing.",
               },
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/close-up-environment-project_23-2148894106.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/close-up-environment-project_23-2148894106.jpg?_wi=1"
             textAnimation="slide-up"
           />
         </SectionErrorBoundary>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                 avatarSrc: "http://img.b2bpic.net/free-photo/proud-businessman-with-his-company_1098-2864.jpg",
                 buttonText: "LinkedIn",
                 buttonHref: "#",
-                imageSrc: "http://img.b2bpic.net/free-photo/african-american-male-professional-works-desk-corporation_482257-122689.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/african-american-male-professional-works-desk-corporation_482257-122689.jpg?_wi=1",
               },
               {
                 title: "Aisha Patel",

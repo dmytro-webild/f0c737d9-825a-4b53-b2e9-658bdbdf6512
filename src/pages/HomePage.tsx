@@ -13,13 +13,15 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import SocialProofSection from './HomePage/sections/SocialProof';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import OperationsSection from './HomePage/sections/Operations';export default function HomePage(): React.JSX.Element {
   return (
 <>
       <HeroSection />
 
 
       <SolutionsSection />
+      <OperationsSection />
 
       <ComparisonSection />
 

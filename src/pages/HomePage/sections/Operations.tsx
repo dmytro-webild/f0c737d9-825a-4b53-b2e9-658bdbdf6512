@@ -32,11 +32,32 @@ export default function OperationsSection(): React.JSX.Element {
       flag: '🇷🇴'
     },
     {
+      country: 'Latvia',
+      capacity: 'Active Hub',
+      status: 'Operational',
+      details: 'Baltic regional grid synchronization and renewable storage.',
+      flag: '🇱🇻'
+    },
+    {
       country: 'Spain',
       capacity: 'Active Hub',
       status: 'Operational',
       details: 'Solar integration and regional battery energy storage operations.',
       flag: '🇪🇸'
+    },
+    {
+      country: 'Italy',
+      capacity: 'Active Hub',
+      status: 'Operational',
+      details: 'Mediterranean grid resilience and high-efficiency storage.',
+      flag: '🇮🇹'
+    },
+    {
+      country: 'Chile',
+      capacity: 'Active Hub',
+      status: 'Operational',
+      details: 'South American renewable storage and grid expansion.',
+      flag: '🇨🇱'
     }
   ];
 
@@ -60,7 +81,7 @@ export default function OperationsSection(): React.JSX.Element {
                 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground mb-4"
               />
               <p className="text-accent text-base md:text-lg">
-                Powering clean energy infrastructure across Australia, Japan, Romania, and Spain with advanced BESS technology.
+                Powering clean energy infrastructure across Australia, Japan, Romania, Latvia, Spain, Italy, and Chile with advanced BESS technology.
               </p>
             </div>
             <div className="shrink-0">

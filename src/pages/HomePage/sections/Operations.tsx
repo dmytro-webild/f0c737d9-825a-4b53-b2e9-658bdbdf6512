@@ -86,7 +86,7 @@ export default function OperationsSection(): React.JSX.Element {
             </div>
             <div className="shrink-0">
               <a
-                href="https://dashboard.aethir.com/protocol/overview"
+                href="https://futurewatt-energy-dashboard.yan-yang-6135.chatgpt.site/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold text-primary-cta-text bg-primary-cta hover:opacity-90 transition-all shadow-md group"

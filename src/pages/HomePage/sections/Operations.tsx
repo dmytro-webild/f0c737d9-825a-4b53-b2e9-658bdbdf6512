@@ -30,6 +30,13 @@ export default function OperationsSection(): React.JSX.Element {
       status: 'Operational',
       details: 'European clean energy management and strategic BESS deployment.',
       flag: '🇷🇴'
+    },
+    {
+      country: 'Spain',
+      capacity: 'Active Hub',
+      status: 'Operational',
+      details: 'Solar integration and regional battery energy storage operations.',
+      flag: '🇪🇸'
     }
   ];
 
@@ -53,7 +60,7 @@ export default function OperationsSection(): React.JSX.Element {
                 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground mb-4"
               />
               <p className="text-accent text-base md:text-lg">
-                Powering clean energy infrastructure across Australia, Japan, and Romania with advanced BESS technology.
+                Powering clean energy infrastructure across Australia, Japan, Romania, and Spain with advanced BESS technology.
               </p>
             </div>
             <div className="shrink-0">
@@ -104,7 +111,7 @@ export default function OperationsSection(): React.JSX.Element {
               <MapPin className="w-5 h-5 text-primary-cta" />
               Key Operational Regions
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {regions.map((region, idx) => (
                 <div
                   key={idx}
